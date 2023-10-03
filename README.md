@@ -6,6 +6,11 @@ This repository contains STL files for the MicroLab 3D printed reactors. The sof
 
 ## Reactor Versions
 
+### Version 5
+The v5 folder contains updated parts files for the Microlab v0.5 release, it adds:
+- A resized motor mount (measured in mm rather than cm - look out for this in other older parts!)
+- A new flange for mounting the reaction chamber in its housing
+
 ### Version 4
 
 The v4 folder contains the latest parts for the Microlab assembly, including:
