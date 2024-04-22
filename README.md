@@ -6,6 +6,13 @@ This repository contains STL files for the MicroLab 3D printed reactors. The sof
 
 ## Reactor Versions
 
+### Version 6
+The v6 version includes parts for the Microlab v0.6 release. As of April 2024 it is an alpha version.
+- New printable Control Unit case
+- New printable Reactor Box
+- New printable Reactor Stand
+- Redesigned Reactor Manifold that includes more ports and supports stock canning jar lid rings
+
 ### Version 5
 The v5 folder contains updated parts files for the Microlab v0.5 release, it adds:
 - A resized motor mount (measured in mm rather than cm - look out for this in other older parts!)
