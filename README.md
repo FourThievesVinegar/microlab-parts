@@ -6,8 +6,10 @@ This repository contains STL files for the MicroLab 3D printed reactors. The sof
 
 ## Reactor Versions
 
+<IMG ALT="A fully-assembled v6 Microlab" SRC="https://github.com/FourThievesVinegar/solderless-microlab/blob/docs/release0.6-updates/docs/media/microlab-v0.6.0-assembled.jpg?raw=true" WIDTH="400" />
+
 ### Version 6
-The v6 version includes parts for the Microlab v0.6 release. As of April 2024 it is an alpha version.
+The v6 version includes parts for the Microlab v0.6 release.
 - New printable Control Unit case
 - New printable Reactor Box
 - New printable Reactor Stand
@@ -20,7 +22,7 @@ The v5 folder contains updated parts files for the Microlab v0.5 release, it add
 
 ### Version 4
 
-The v4 folder contains the latest parts for the Microlab assembly, including:
+The v4 folder contains ~~the latest~~ old parts for the Microlab assembly, including:
 - The main reactor manifold
 - Lids for the heating and cooling setups
 - Motor mount for the stirring motor
