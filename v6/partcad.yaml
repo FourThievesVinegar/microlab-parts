@@ -1,0 +1,73 @@
+# This is a PartCAD configuration file.
+# See https://partcad.readthedocs.io/ for more information.
+
+# This PartCAD package is intended to facilitate the development process
+# and it's not intended to be added to the public PartCAD repository
+# or to be used as a dependency in third-party projects.
+# The public PartCAD package will be added to
+# https://github.com/FourThievesVinegar/solderless-microlab/
+
+# PartCAD does not currently support FreeCAD files as the source.
+# Thus, for now, STEP files are used as the source files.
+# The currently recommended ways to maintain sources in PartCAD are
+# CadQuery, build123d and OpenSCAD.
+# Once more git-friendly source files are available, both STEP and STL files
+# will be automatically produced using the source files.
+
+# Usage:
+#   - To render output files, use 'pc render'.
+
+parts:
+  pumps-box/pumps-box-lid-v0.3:
+    type: step
+  pumps-box/pumps-box-v.1.0:
+    type: step
+  pumps-box/screw-together-version/pumps-box-v.0.7:
+    type: step
+  temperature-units/cold-unit-lid-v.1.0:
+    type: step
+  temperature-units/hot-unit-lid-v.1.0:
+    type: step
+  reactor-manifold/reactor-manifold-core-v0.1:
+    type: step
+  reactor-manifold/stirring-mount-screws-accessible:
+    type: step
+  reactor-manifold/reactor-manifold-lid-v0.1:
+    type: step
+  reactor-manifold/stirring-mount-v0.1:
+    type: step
+  reactor-stand/reactor-stand-A.v1.0:
+    type: step
+  reactor-stand/reactor-stand-k.v1.0:
+    type: step
+  reactor-stand/reactor-stand-H.v1.0:
+    type: step
+  reactor-stand/reactor-stand-c.v1.0:
+    type: step
+  reactor-stand/screw-together-version/reactor-stand-A.v0.2:
+    type: step
+  reactor-stand/screw-together-version/reactor-stand-k.v0.2:
+    type: step
+  reactor-stand/screw-together-version/reactor-stand-c.v0.1:
+    type: step
+  reactor-stand/screw-together-version/reactor-stand-H.v0.2:
+    type: step
+  control-box/control-box-flat-v.1.0:
+    type: step
+  control-box/control-box-v.1.1:
+    type: step
+  control-box/sub-components/relay-board-case-50x73x17mm-no-top:
+    type: step
+  control-box/sub-components/relay-board-case-50x73x17mm-Relay Case With Anchor:
+    type: step
+  control-box/sub-components/relay-case-50x73x17mm:
+    type: step
+  control-box/sub-components/stepdown-case-63x27x14mm:
+    type: step
+  control-box/control-box-lid-flat-v.1.0:
+    type: step
+  control-box/control-box-lid-v.1.0:
+    type: step
+
+render:
+  stl:
