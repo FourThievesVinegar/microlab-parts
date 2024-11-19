@@ -6,7 +6,10 @@ This repository contains design and 3D printable files of syringe pump used in m
 
 Syringe pump allows to dispense arbitrary amount of fluid (limited by syringe capacity) from a syringe by pressing syringe plunge using a stepper-motor powered actuator. 
 
-Syringe is placed in a bracket (shown in blue) and locked in place using a separate attachment (not shown in picture). There is a separate bracket for each syringe diameter supported.
+Syringe is placed in a bracket (shown in blue) and locked in place using a separate attachment (not shown in picture). 
+
+**There is a separate bracket for each syringe diameter supported. If your syringe is slightly smaller than particular bracket it should work without problems.**
+
 
 ![Syringe pump assembly visualisation](./assembly-manual/full-assembly-visualisation.png)
 
