@@ -19,7 +19,7 @@ In theory such pump could operate to pump "infinite" amount of fluid by adding a
 
 ## Bill of Materials
 
-In addition of 3D printable parts from this repository, you also need:
+In addition to 3D printable parts from this repository, you also need:
 
 - Nema 17 stepper motor
 - 625ZZ bearing (5x16x5 mm) - it is the same bearing that is used in V-Slot/3D printer wheels.
@@ -74,7 +74,9 @@ Use M3x6 screws.
 
 ### 3 - Attach conversion gear to the back plate
 
-Use M5x20 screw and nut. You will most likely need to hold the nut in place using small pliers or a screwdriver while tighening the screw.
+Use M5x20 screw and nut. You will most likely need to hold the nut in place using small pliers or a screwdriver while tighening the screw. 
+
+If the bearing does not sit evenly in the gear, the gear may not rotate freely and grind on the plate - you need to realign the bearing then. In some rare cases, like out of spec bearing, you may need to add a M5 washer between bearing and the plate to rise the gear a little.
 
 ![Conversion gear back plate assembly](./assembly-manual/3-backplate-conversion-gear-assembly.png)
 
@@ -102,3 +104,28 @@ Insert syringe actuator through both guide holes.
 If you need syringe bracket with diameter not supported by available files, you can easily generate it yourself using FreeCAD.
 
 Open design file with FreeCAD, go to syringe bracket object. Syringe bracket is parametric - just set desired diameter in "Config" varset, wait till object regenerates and export it to STL/STEP file.
+
+## FAQ
+
+### Motor is too weak to press a syringe plunge.
+Make sure pump is not locked - by manually rotating small gear. 
+
+Do it when motor is disabled from power - depending on controller, motor may be activated all the time, even when not moving - and making it impossible to rotate by hand.
+
+Possible causes why motor may be too weak:
+- Stepper motor driver uses so called "microstepping" which makes motor more silent and precise. Microstepping reduces motor torque. Try disabling microstepping or at least reducing the microstep ratio.
+- Too small motor current. Check motor and motor driver datasheets to verify the maximum current they can handle. If possible, increase motor current as it will increase the torque.
+- Compare your motor's model datasheet specification (torque) with other Nema 17 motor models. If your model has abnormally lower torque than other models, it may be the case.
+- Try reducing motor speed while pumping
+
+As experiments show - 17HS4401 motor running at 1A current has enough torque to easily move a syringe plunge at wide range of speeds.
+
+### Pump damages itself or syringe when pumping beyond end of syringe capacity
+
+Pump is designed and tested to not do any damage when pumping beyond syringe capacity. Motor is expected to stop moving and start skipping steps when there is no way to move gears.
+
+**If syringe bracket is breaking, try printing it with larger infill percentage and more top/bottom layers.**
+
+If motor torque is too large and causes locked pump or syringe to be damaged, try lowering motor current by reconfiguring stepper motor driver. Refer to motor and driver data sheets for safe current ratings. Running motor **below** its nominal current specified in datasheet is perfectly fine.
+
+**This pump was only tested with plastic syringes. You are using glass syringes at your own risk (as everything else here anyway).**
