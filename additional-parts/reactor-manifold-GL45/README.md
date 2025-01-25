@@ -1,4 +1,4 @@
-# Eight-Hands Variant Reactor Core
+# GL45 Variant Reactor Core
 
 This experimental design uses a borosilicate media bottle with GL45 threads as the inner vessel and a hand-cut teflon disk as the lid to improve chemical compatibility. Because the sealing surface is the bottom of the teflon disk, not the edges, tight tolerances are not required.
 
