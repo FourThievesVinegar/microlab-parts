@@ -6,7 +6,14 @@ This repository contains STL files for the MicroLab 3D printed reactors. The sof
 
 ## Reactor Versions
 
-<IMG ALT="A fully-assembled v6 Microlab" SRC="https://fourthievesvinegar.org/wp-content/uploads/2024/07/microlab-stirring-3.gif" WIDTH="400" />
+<IMG ALT="A fully-assembled v6 Microlab" SRC="./microlab-v0.6.5-stirring.gif" WIDTH="600" />
+
+### Version 6.5
+
+The v6.5 version includes parts for the Microlab v0.6.5 release.
+
+- Updated Reactor Core with improved chemical and thermal tolerances
+- Improved port placement on Pumps Box
 
 ### Version 6
 
