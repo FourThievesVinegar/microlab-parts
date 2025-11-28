@@ -12,10 +12,10 @@ This style of pump is named after peristalsis, which is the coordinated contract
 
 ## Pumps in the MicroLab
 
-The v0.6 MicroLab uses a series of three pumps driven by stepper motors as part of the Pumps Box in the Reactor Unit. These pumps inject chemicals into the reaction chamber. The v0.6.0 designs recommended off-the-shelf peristaltic pumps but these have become scarce since release. This pump is a DIY, open-source alternative. You can also use the [syringe pumps](https://github.com/FourThievesVinegar/microlab-parts/tree/master/syringe-pump)
+The MicroLab uses a series of three pumps driven by stepper motors as part of the Pumps Box in the Reactor Unit. These pumps inject chemicals into the reaction chamber. The current designs recommended off-the-shelf peristaltic pumps but these are often hard to source. This pump is a DIY, open-source alternative. You can also use the [syringe pumps](https://github.com/FourThievesVinegar/microlab-parts/tree/master/syringe-pump)
 
 ## Building a MicroLab Peristaltic Pump
-
+have become scarce since release<IMG ALT="A fully-assembled v6 Microlab" SRC="https://github.com/FourThievesVinegar/solderless-microlab/blob/main/docs/media/microlab-stirring-1.gif?raw=true" WIDTH="600" />
 ### The Printed Parts
 
 First, you will need the printed parts files in the `files-STL` directory. The `images` directory contains renders of the various parts and their assembly.
