@@ -1,8 +1,8 @@
 # MicroLab Peristaltic Pump
 
-These files are 3D part designs that can be printed and used to build an essential component of 
+These files are 3D part designs that can be printed and used to build an essential component of the MicroLab that can be both (1) scarce when suppliers go out of business and (2) a substantial portion of the cost of the build. It's not *done* but it *basically works*. Please feel free to fork it. If you do, let us know and we can update our docs - or maybe at that point you want to maintain your own fork of the whole project. Who knows? ;)
 
-v0.1-alpha - interfacing with Pumps Box not yet complete.
+Status: v0.1-alpha - Interfacing with Pumps Box not yet complete. Pump itself has not been thoroughly tested or calibrated.
 
 ## What is a Peristaltic Pump?
 
@@ -12,7 +12,7 @@ This style of pump is named after peristalsis, which is the coordinated contract
 
 ## Pumps in the MicroLab
 
-The MicroLab uses a series of three pumps driven by stepper motors as part of the Pumps Box in the Reactor Unit. These pumps inject chemicals into the reaction chamber. The current designs recommended off-the-shelf peristaltic pumps but these are often hard to source. This pump is a DIY, open-source alternative. You can also use the [syringe pumps](https://github.com/FourThievesVinegar/microlab-parts/tree/master/syringe-pump)
+The MicroLab uses a series of three pumps driven by stepper motors as part of the Pumps Box in the Reactor Unit. These pumps inject chemicals into the reaction chamber. The current designs recommended off-the-shelf peristaltic pumps but these are often hard to source. This pump is a DIY, open-source alternative. You can also use the [syringe pumps](https://github.com/FourThievesVinegar/microlab-parts/tree/master/syringe-pump) if you prefer.
 
 ## Building a MicroLab Peristaltic Pump
 
