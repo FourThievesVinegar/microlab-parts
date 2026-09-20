@@ -2,11 +2,11 @@
 
 ![Four Thieves Vinegar Micro Lab](https://github.com/FourThievesVinegar/microlab/blob/master/images/4tvc.jpg)
 
-This repository contains STL files for the MicroLab 3D printed reactors. The software for the MicroLab reactor can be found here: https://github.com/FourThievesVinegar/solderless-microlab.
+This repository contains STL files for the MicroLab 3D printed parts. The software for the MicroLab and assembly instructions can be found here: https://github.com/FourThievesVinegar/solderless-microlab.
 
 ## Reactor Versions
 
-<IMG ALT="A fully-assembled v6 Microlab" SRC="https://github.com/FourThievesVinegar/solderless-microlab/blob/main/docs/media/microlab-stirring-1.gif?raw=true" WIDTH="600" />
+<IMG ALT="A fully-assembled v1.0 Microlab" SRC="https://github.com/FourThievesVinegar/solderless-microlab/blob/main/docs/media/microlab-stirring-1.gif?raw=true" WIDTH="600" />
 
 ### Version 7
 
