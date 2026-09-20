@@ -1,8 +1,8 @@
-# MicroLab 3D Printed Reactors
+# MicroLab 3D Printed Reactor Parts
 
 ![Four Thieves Vinegar Micro Lab](https://github.com/FourThievesVinegar/microlab/blob/master/images/4tvc.jpg)
 
-This repository contains STL files for the MicroLab 3D printed parts. The software for the MicroLab and assembly instructions can be found here: https://github.com/FourThievesVinegar/solderless-microlab.
+This repository contains STL files for the MicroLab's 3D printed parts. The software for the MicroLab and assembly instructions can be found here: https://github.com/FourThievesVinegar/solderless-microlab.
 
 ## Reactor Versions
 
